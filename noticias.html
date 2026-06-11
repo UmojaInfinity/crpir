@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Notícias e agenda — CRPIR São Paulo | Direito da semana, oficinas e histórias</title>
+  <meta name="description" content="Acompanhe o CRPIR: Direito da semana em linguagem simples, agenda de oficinas e rodas de conversa gratuitas, e histórias de quem encontrou acolhimento nos territórios de São Paulo.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Instituto Social Espaço Negro (GEN)">
+  <!-- Domínio gratuito do GitHub Pages — trocar pelas URLs definitivas quando houver domínio próprio -->
+  <link rel="canonical" href="https://umojainfinity.github.io/crpir/noticias.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Notícias e agenda — CRPIR São Paulo">
+  <meta property="og:description" content="Direito da semana, oficinas, rodas de conversa e histórias de quem encontrou o CRPIR.">
+  <meta property="og:url" content="https://umojainfinity.github.io/crpir/noticias.html">
+  <meta property="og:site_name" content="CRPIR São Paulo">
+  <meta property="og:image" content="https://umojainfinity.github.io/crpir/assets/logo-crpir.png">
+
+  <link rel="icon" type="image/png" href="assets/logo-crpir.png">
+  <meta name="theme-color" content="#1C1917">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Notícias e agenda — CRPIR São Paulo",
+    "description": "Direito da semana, agenda de oficinas e histórias dos territórios.",
+    "isPartOf": { "@id": "https://umojainfinity.github.io/crpir/#org" },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://umojainfinity.github.io/crpir/" },
+        { "@type": "ListItem", "position": 2, "name": "Notícias e agenda", "item": "https://umojainfinity.github.io/crpir/noticias.html" }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+  <div class="barra-topo" role="region" aria-label="Opções de acessibilidade">
+    <div class="container barra-topo__inner">
+      <span class="barra-topo__selo">Atendimento sigiloso · Dados protegidos pela LGPD</span>
+      <div class="barra-topo__botoes">
+        <button type="button" id="btn-fonte-menos" aria-label="Diminuir tamanho da letra">A−</button>
+        <button type="button" id="btn-fonte-mais" aria-label="Aumentar tamanho da letra">A+</button>
+        <button type="button" id="btn-contraste" aria-pressed="false" aria-label="Ativar alto contraste">Alto contraste</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="cabecalho">
+    <div class="container cabecalho__inner">
+      <a href="index.html" class="cabecalho__marca" aria-label="CRPIR — Página inicial">
+        <img src="assets/logo-crpir.png" alt="Logotipo do CRPIR — Centro de Referência de Promoção da Igualdade Racial" width="69" height="46">
+      </a>
+      <nav class="cabecalho__nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html#acolhimento">Acolhimento</a></li>
+          <li><a href="index.html#servicos">Serviços</a></li>
+          <li><a href="direitos.html">Direitos</a></li>
+          <li><a href="noticias.html" aria-current="page">Notícias</a></li>
+          <li><a href="index.html#onde-estamos">Onde estamos</a></li>
+          <li><a href="index.html#perguntas">Perguntas</a></li>
+        </ul>
+      </nav>
+      <a class="botao botao--primario cabecalho__cta" href="index.html#pedir-ajuda">Pedir ajuda</a>
+      <button class="cabecalho__menu-btn" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section class="pagina-hero" aria-labelledby="titulo-pagina">
+      <div class="container">
+        <p class="rotulo rotulo--claro">Fique por dentro</p>
+        <h1 id="titulo-pagina">Notícias e <em>agenda</em></h1>
+        <p>Direito da semana em linguagem simples, oficinas e rodas de conversa gratuitas, e histórias de quem encontrou o CRPIR nos territórios.</p>
+      </div>
+    </section>
+
+    <section class="noticias" aria-label="Lista de notícias">
+      <div class="container">
+
+        <div class="filtros" role="group" aria-label="Filtrar por categoria">
+          <button type="button" data-filtro="todas" aria-pressed="true">Tudo</button>
+          <button type="button" data-filtro="direito-da-semana" aria-pressed="false">Direito da semana</button>
+          <button type="button" data-filtro="agenda" aria-pressed="false">Agenda</button>
+          <button type="button" data-filtro="historias" aria-pressed="false">Histórias</button>
+        </div>
+
+        <!-- ATENÇÃO: os posts abaixo são EXEMPLOS de layout, baseados nas pautas
+             sugeridas no guia de personas. Substituir por conteúdo real antes de publicar. -->
+        <div class="noticias__grade">
+
+          <article class="cartao-noticia" data-categoria="direito-da-semana" data-reveal>
+            <div class="cartao-noticia__meta">
+              <span class="cartao-noticia__categoria">Direito da semana</span>
+              <span class="cartao-noticia__data">Em breve</span>
+            </div>
+            <h2>Abordagem policial: seus direitos em 30 segundos</h2>
+            <p>O que você pode exigir, o que ninguém pode fazer com você e a quem recorrer — direto ao ponto.</p>
+            <a href="#" class="cartao-noticia__link" aria-label="Ler: Abordagem policial, seus direitos em 30 segundos">Ler</a>
+          </article>
+
+          <article class="cartao-noticia" data-categoria="agenda" data-reveal>
+            <div class="cartao-noticia__meta">
+              <span class="cartao-noticia__categoria">Agenda</span>
+              <span class="cartao-noticia__data">Em breve</span>
+            </div>
+            <h2>Roda de conversa: acolhimento e igualdade racial</h2>
+            <p>Sábado, 14h, no CRPIR — entrada gratuita e aberta a toda a comunidade.</p>
+            <a href="#" class="cartao-noticia__link" aria-label="Ler: Roda de conversa sobre acolhimento e igualdade racial">Quero participar</a>
+          </article>
+
+          <article class="cartao-noticia" data-categoria="direito-da-semana" data-reveal>
+            <div class="cartao-noticia__meta">
+              <span class="cartao-noticia__categoria">Direito da semana</span>
+              <span class="cartao-noticia__data">Em breve</span>
+            </div>
+            <h2>Nome social: como garantir o seu no atendimento</h2>
+            <p>Passo a passo para ser chamado(a) pelo seu nome em serviços públicos e privados.</p>
+            <a href="#" class="cartao-noticia__link" aria-label="Ler: Nome social, como garantir o seu no atendimento">Ler</a>
+          </article>
+
+          <article class="cartao-noticia" data-categoria="historias" data-reveal>
+            <div class="cartao-noticia__meta">
+              <span class="cartao-noticia__categoria">Histórias</span>
+              <span class="cartao-noticia__data">Em breve</span>
+            </div>
+            <h2>Histórias de recomeço nos territórios</h2>
+            <p>Depoimentos anonimizados, com consentimento, de quem encontrou acolhimento e reconstruiu caminhos.</p>
+            <a href="#" class="cartao-noticia__link" aria-label="Ler: Histórias de recomeço nos territórios">Ler</a>
+          </article>
+
+          <article class="cartao-noticia" data-categoria="agenda" data-reveal>
+            <div class="cartao-noticia__meta">
+              <span class="cartao-noticia__categoria">Agenda</span>
+              <span class="cartao-noticia__data">Em breve</span>
+            </div>
+            <h2>Oficina: MEI e maternidade — o que você tem direito</h2>
+            <p>Para quem trabalha por conta própria: formalização, salário-maternidade e proteção social.</p>
+            <a href="#" class="cartao-noticia__link" aria-label="Ler: Oficina MEI e maternidade">Quero participar</a>
+          </article>
+
+          <article class="cartao-noticia" data-categoria="direito-da-semana" data-reveal>
+            <div class="cartao-noticia__meta">
+              <span class="cartao-noticia__categoria">Direito da semana</span>
+              <span class="cartao-noticia__data">Em breve</span>
+            </div>
+            <h2>Aposentadoria rural: os documentos que você precisa</h2>
+            <p>Guia simples para pescadores e agricultores familiares garantirem o benefício como segurado especial.</p>
+            <a href="#" class="cartao-noticia__link" aria-label="Ler: Aposentadoria rural, os documentos que você precisa">Ler</a>
+          </article>
+
+        </div>
+
+        <p class="aviso-legal" data-reveal>
+          Quer receber esses conteúdos direto no celular? <a href="index.html#pedir-ajuda">Chame o CRPIR no WhatsApp</a> e peça para entrar na lista de avisos — você pode sair quando quiser.
+        </p>
+      </div>
+    </section>
+
+    <section class="cta-final" id="pedir-ajuda-pagina" aria-labelledby="cta-titulo">
+      <div class="container cta-final__inner" data-reveal>
+        <h2 id="cta-titulo">Informação boa é a que<br><em>chega até você</em>.</h2>
+        <p>Participe das oficinas e rodas de conversa — gratuitas e abertas.</p>
+        <!-- ATENÇÃO: número de WhatsApp é placeholder -->
+        <a class="botao botao--whatsapp botao--grande" href="https://wa.me/5511900000000?text=Ol%C3%A1%2C%20quero%20saber%20da%20agenda%20de%20oficinas%20do%20CRPIR." rel="noopener" target="_blank">
+          Falar pelo WhatsApp
+        </a>
+        <p class="cta-final__sigilo">Conversa sigilosa · Dados protegidos pela LGPD · Atendimento gratuito</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__inner">
+      <div class="rodape__col rodape__marca">
+        <img src="assets/logo-crpir-branco.png" alt="Logotipo do CRPIR em branco" width="120" height="81" loading="lazy">
+        <p>Centro de Referência de Promoção da Igualdade Racial — São Paulo.</p>
+      </div>
+      <div class="rodape__col">
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="index.html#acolhimento">Acolhimento</a></li>
+          <li><a href="index.html#servicos">Serviços</a></li>
+          <li><a href="direitos.html">Conheça seus direitos</a></li>
+          <li><a href="noticias.html">Notícias e agenda</a></li>
+          <li><a href="index.html#onde-estamos">Onde estamos</a></li>
+          <li><a href="index.html#perguntas">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+      <div class="rodape__col">
+        <h3>Institucional</h3>
+        <p>Equipamento público da SMDHC/CPIR — Prefeitura de São Paulo.</p>
+        <p>Operação: Instituto Social Espaço Negro (GEN).</p>
+        <p>Contratos PMSP TCL 068 e 069/2023.</p>
+      </div>
+      <div class="rodape__col">
+        <h3>Compromissos</h3>
+        <p>Sigilo e LGPD</p>
+        <p>Acessibilidade como padrão</p>
+        <p>Atendimento humanizado e antirracista</p>
+      </div>
+    </div>
+    <div class="rodape__base">
+      <div class="container">
+        <p>© <span id="ano-atual">2026</span> CRPIR · Instituto Social Espaço Negro (GEN)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp — ATENÇÃO: número placeholder -->
+  <a class="whatsapp-flutuante" href="https://wa.me/5511900000000?text=Ol%C3%A1%2C%20preciso%20de%20acolhimento%20do%20CRPIR." rel="noopener" target="_blank" aria-label="Falar com o CRPIR pelo WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" fill="currentColor"><path d="M16 .8C7.6.8.8 7.6.8 16c0 2.7.7 5.3 2 7.6L.8 31.2l7.8-2c2.2 1.2 4.7 1.9 7.4 1.9 8.4 0 15.2-6.8 15.2-15.2S24.4.8 16 .8zm0 27.7c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.6 1.2 1.2-4.5-.3-.5c-1.3-2-2-4.4-2-6.8C3.1 8.9 8.9 3.1 16 3.1S28.9 8.9 28.9 16 23.1 28.5 16 28.5zm7.1-9.5c-.4-.2-2.3-1.1-2.6-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.3-.4.3-.8.1-.4-.2-1.6-.6-3.1-1.9-1.1-1-1.9-2.3-2.1-2.6-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.7.2-.2.3-.4.4-.7.1-.3.1-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.4-1.4 3.4s1.5 3.9 1.7 4.2c.2.3 2.9 4.4 7 6.2 1 .4 1.7.7 2.3.9 1 .3 1.9.3 2.6.2.8-.1 2.3-1 2.7-1.9.3-.9.3-1.7.2-1.9-.1-.2-.4-.3-.8-.5z"/></svg>
+    <span class="whatsapp-flutuante__texto">Pedir ajuda agora</span>
+  </a>
+
+  <script src="js/main.js" defer></script>
+  <script>
+    // Filtro de categorias da página de notícias
+    document.addEventListener('DOMContentLoaded', function () {
+      var botoes = document.querySelectorAll('.filtros button');
+      var cartoes = document.querySelectorAll('.cartao-noticia');
+      botoes.forEach(function (botao) {
+        botao.addEventListener('click', function () {
+          var filtro = botao.dataset.filtro;
+          botoes.forEach(function (b) { b.setAttribute('aria-pressed', String(b === botao)); });
+          cartoes.forEach(function (cartao) {
+            cartao.hidden = filtro !== 'todas' && cartao.dataset.categoria !== filtro;
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

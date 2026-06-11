@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO básico -->
+  <title>CRPIR São Paulo — Centro de Referência de Promoção da Igualdade Racial | Acolhimento gratuito e sigiloso</title>
+  <meta name="description" content="Sofreu racismo, injúria racial ou discriminação? O CRPIR acolhe, orienta e defende seus direitos — de graça e com sigilo. Acolhimento psicossocial, orientação jurídica e apoio a trabalho e renda em São Paulo.">
+  <meta name="keywords" content="CRPIR, igualdade racial, sofri racismo, denunciar racismo, injúria racial, discriminação, acolhimento psicossocial, orientação jurídica gratuita, direitos humanos São Paulo, SMDHC, nome social, LGBTfobia, inclusão produtiva">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Instituto Social Espaço Negro (GEN)">
+  <!-- Domínio gratuito do GitHub Pages — trocar pelas URLs definitivas quando houver domínio próprio -->
+  <link rel="canonical" href="https://umojainfinity.github.io/crpir/">
+
+  <!-- Open Graph (compartilhamento em redes e WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="CRPIR — Acolhida, Afeto e Ação. Seus direitos começam aqui.">
+  <meta property="og:description" content="Sofreu racismo ou discriminação? Você não está só. O CRPIR acolhe, orienta e defende seus direitos — gratuito e sigiloso, em São Paulo.">
+  <meta property="og:url" content="https://umojainfinity.github.io/crpir/">
+  <meta property="og:site_name" content="CRPIR São Paulo">
+  <meta property="og:image" content="https://umojainfinity.github.io/crpir/assets/logo-crpir.png">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CRPIR — Acolhida, Afeto e Ação. Seus direitos começam aqui.">
+  <meta name="twitter:description" content="Acolhimento gratuito e sigiloso contra o racismo e a discriminação, em São Paulo.">
+  <meta name="twitter:image" content="https://umojainfinity.github.io/crpir/assets/logo-crpir.png">
+
+  <link rel="icon" type="image/png" href="assets/logo-crpir.png">
+  <meta name="theme-color" content="#1C1917">
+
+  <!-- Tipografia da marca: Playfair Display (títulos) + DM Sans (corpo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Dados estruturados: organização + serviços + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "GovernmentOrganization",
+        "@id": "https://umojainfinity.github.io/crpir/#org",
+        "name": "CRPIR — Centro de Referência de Promoção da Igualdade Racial",
+        "alternateName": "CRPIR São Paulo",
+        "url": "https://umojainfinity.github.io/crpir/",
+        "logo": "https://umojainfinity.github.io/crpir/assets/logo-crpir.png",
+        "description": "Equipamento público da Secretaria Municipal de Direitos Humanos e Cidadania de São Paulo (SMDHC/CPIR), operado pelo Instituto Social Espaço Negro (GEN), voltado ao enfrentamento do racismo e à promoção da igualdade racial. Atendimento humanizado, sigiloso e antirracista.",
+        "areaServed": {
+          "@type": "City",
+          "name": "São Paulo",
+          "containedInPlace": { "@type": "State", "name": "São Paulo" }
+        },
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "Instituto Social Espaço Negro (GEN)"
+        },
+        "knowsAbout": ["igualdade racial", "enfrentamento ao racismo", "direitos humanos", "acolhimento psicossocial", "orientação jurídica", "inclusão produtiva"]
+      },
+      {
+        "@type": "GovernmentService",
+        "name": "Acolhimento psicossocial",
+        "serviceType": "Acolhimento psicossocial",
+        "description": "Escuta qualificada e sigilosa para quem passou por discriminação ou sofrimento.",
+        "provider": { "@id": "https://umojainfinity.github.io/crpir/#org" },
+        "areaServed": { "@type": "City", "name": "São Paulo" },
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "GovernmentService",
+        "name": "Orientação jurídica",
+        "serviceType": "Orientação jurídica gratuita",
+        "description": "Orientação sobre direitos e sobre como registrar ocorrências de racismo, injúria racial e outras discriminações.",
+        "provider": { "@id": "https://umojainfinity.github.io/crpir/#org" },
+        "areaServed": { "@type": "City", "name": "São Paulo" },
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "GovernmentService",
+        "name": "Defesa de direitos",
+        "serviceType": "Defesa de direitos",
+        "description": "Atuação frente a discriminações por raça, gênero, identidade LGBTQIA+ e deficiência.",
+        "provider": { "@id": "https://umojainfinity.github.io/crpir/#org" },
+        "areaServed": { "@type": "City", "name": "São Paulo" },
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "GovernmentService",
+        "name": "Inclusão produtiva",
+        "serviceType": "Apoio a trabalho e renda",
+        "description": "Apoio a trabalho, renda, qualificação profissional e empreendedorismo.",
+        "provider": { "@id": "https://umojainfinity.github.io/crpir/#org" },
+        "areaServed": { "@type": "City", "name": "São Paulo" },
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "O atendimento do CRPIR é gratuito?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. O CRPIR é um equipamento público da Prefeitura de São Paulo e todos os serviços são gratuitos: acolhimento psicossocial, orientação jurídica, defesa de direitos, encaminhamentos, formação e apoio a trabalho e renda."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O atendimento é sigiloso?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. Sua história fica protegida. O atendimento é sigiloso e seus dados são tratados conforme a LGPD (Lei Geral de Proteção de Dados). Nada é compartilhado sem o seu consentimento."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Sofri racismo. O que eu faço?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Procure o CRPIR pelo WhatsApp ou presencialmente. Você será acolhido com escuta sigilosa, receberá orientação jurídica sobre como registrar a ocorrência e, se quiser, acompanhamento em cada passo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quem pode ser atendido pelo CRPIR?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Qualquer munícipe de São Paulo. O CRPIR prioriza a população negra e grupos historicamente excluídos, e também acolhe pessoas LGBTQIA+, pessoas com deficiência, trabalhadores informais, comunidades tradicionais, jovens e familiares de pessoas presas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O CRPIR ajuda a conseguir trabalho e renda?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. O serviço de inclusão produtiva apoia formalização como MEI, qualificação profissional, acesso a vagas de emprego e empreendedorismo."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Posso buscar ajuda para outra pessoa?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pode. Familiares, amigos, educadores e profissionais da rede podem procurar o CRPIR para orientar alguém que precisa de acolhimento."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Barra de acessibilidade -->
+  <div class="barra-topo" role="region" aria-label="Opções de acessibilidade">
+    <div class="container barra-topo__inner">
+      <span class="barra-topo__selo">Atendimento sigiloso · Dados protegidos pela LGPD</span>
+      <div class="barra-topo__botoes">
+        <button type="button" id="btn-fonte-menos" aria-label="Diminuir tamanho da letra">A−</button>
+        <button type="button" id="btn-fonte-mais" aria-label="Aumentar tamanho da letra">A+</button>
+        <button type="button" id="btn-contraste" aria-pressed="false" aria-label="Ativar alto contraste">Alto contraste</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cabeçalho -->
+  <header class="cabecalho" id="inicio">
+    <div class="container cabecalho__inner">
+      <a href="#inicio" class="cabecalho__marca" aria-label="CRPIR — Página inicial">
+        <img src="assets/logo-crpir.png" alt="Logotipo do CRPIR — Centro de Referência de Promoção da Igualdade Racial" width="69" height="46">
+      </a>
+      <nav class="cabecalho__nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#acolhimento">Acolhimento</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="direitos.html">Direitos</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="#onde-estamos">Onde estamos</a></li>
+          <li><a href="#perguntas">Perguntas</a></li>
+        </ul>
+      </nav>
+      <a class="botao botao--primario cabecalho__cta" href="#pedir-ajuda">Pedir ajuda</a>
+      <button class="cabecalho__menu-btn" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-titulo">
+      <div class="container hero__inner">
+        <div class="hero__conteudo">
+          <p class="rotulo rotulo--claro">Equipamento público · SMDHC · Prefeitura de São Paulo</p>
+          <h1 id="hero-titulo">
+            Aqui sua história<br>
+            é <em>acolhida</em>,<br>
+            seus direitos são <em>defendidos</em>.
+          </h1>
+          <p class="hero__texto">
+            Se você viveu racismo, discriminação ou está passando por um momento difícil,
+            você não está só. O CRPIR escuta, orienta e caminha com você — com sigilo
+            e sem julgamento.
+          </p>
+          <div class="hero__acoes">
+            <!-- ATENÇÃO: número de WhatsApp é placeholder -->
+            <a class="botao botao--whatsapp" href="https://wa.me/5511900000000?text=Ol%C3%A1%2C%20preciso%20de%20acolhimento%20do%20CRPIR." rel="noopener" target="_blank">Falar pelo WhatsApp</a>
+            <a class="botao botao--fantasma" href="#acolhimento">Como podemos ajudar</a>
+          </div>
+        </div>
+        <div class="hero__petalas" aria-hidden="true">
+          <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(225 330)">
+              <path class="petala petala--verde p1" transform="rotate(-78) translate(0 -18)" d="M0 0 C-30 -34 -36 -86 -14 -118 C-4 -132 16 -130 22 -112 C36 -76 28 -30 0 0 Z"/>
+              <path class="petala petala--laranja p2" transform="rotate(-47) translate(0 -18)" d="M0 0 C-30 -34 -36 -86 -14 -118 C-4 -132 16 -130 22 -112 C36 -76 28 -30 0 0 Z"/>
+              <path class="petala petala--roxa p3" transform="rotate(-16) translate(0 -18)" d="M0 0 C-30 -34 -36 -86 -14 -118 C-4 -132 16 -130 22 -112 C36 -76 28 -30 0 0 Z"/>
+              <path class="petala petala--verde p4" transform="rotate(15) translate(0 -18)" d="M0 0 C-30 -34 -36 -86 -14 -118 C-4 -132 16 -130 22 -112 C36 -76 28 -30 0 0 Z"/>
+              <path class="petala petala--laranja p5" transform="rotate(46) translate(0 -18)" d="M0 0 C-30 -34 -36 -86 -14 -118 C-4 -132 16 -130 22 -112 C36 -76 28 -30 0 0 Z"/>
+              <path class="petala petala--roxa p6" transform="rotate(77) translate(0 -18)" d="M0 0 C-30 -34 -36 -86 -14 -118 C-4 -132 16 -130 22 -112 C36 -76 28 -30 0 0 Z"/>
+            </g>
+          </svg>
+          <p class="hero__ubuntu">“Eu sou porque nós somos.”<span>princípio Ubuntu</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards de situação -->
+    <section class="situacoes" id="acolhimento" aria-labelledby="situacoes-titulo">
+      <div class="container">
+        <div class="secao-cabeca" data-reveal>
+          <p class="rotulo">Comece por aqui</p>
+          <h2 id="situacoes-titulo">Como podemos te <em>acolher</em> hoje?</h2>
+          <p class="secao-subtitulo">Escolha a situação que mais parece com a sua. A gente cuida do resto, passo a passo.</p>
+        </div>
+        <ul class="situacoes__grade">
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--laranja" aria-hidden="true"></span>
+            <h3>Sofri racismo ou injúria racial</h3>
+            <p>Na rua, no trabalho, na escola ou na internet. Racismo é crime — e você tem direito a denunciar com apoio.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero orientação</a>
+          </li>
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--roxa" aria-hidden="true"></span>
+            <h3>Preciso de escuta</h3>
+            <p>Passou por discriminação ou está em sofrimento? Temos escuta qualificada, sigilosa e sem pressa.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero ser ouvido(a)</a>
+          </li>
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--verde" aria-hidden="true"></span>
+            <h3>Quero conhecer meus direitos</h3>
+            <p>Abordagem policial, escola, trabalho, internet: saiba o que a lei garante a você e como se proteger.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero aprender</a>
+          </li>
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--laranja" aria-hidden="true"></span>
+            <h3>Busco trabalho e renda</h3>
+            <p>Apoio para formalizar MEI, se qualificar, encontrar vagas ou tirar seu negócio do papel.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero apoio</a>
+          </li>
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--roxa" aria-hidden="true"></span>
+            <h3>Sofri LGBTfobia ou desrespeito ao nome social</h3>
+            <p>Você tem direito a ser quem é e a ser atendido(a) com respeito, em qualquer serviço.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero respeito</a>
+          </li>
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--verde" aria-hidden="true"></span>
+            <h3>Tenho um parente preso</h3>
+            <p>Orientação sobre direitos da pessoa presa e do visitante, informação confiável e apoio para a família.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero informação</a>
+          </li>
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--laranja" aria-hidden="true"></span>
+            <h3>Enfrento barreiras de acessibilidade</h3>
+            <p>Acessibilidade é direito, não favor. Apoio para denunciar barreiras e garantir inclusão e autonomia.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero acessibilidade</a>
+          </li>
+          <li class="cartao-situacao" data-reveal>
+            <span class="cartao-situacao__petala cartao-situacao__petala--roxa" aria-hidden="true"></span>
+            <h3>Sou de comunidade tradicional ou autônomo(a)</h3>
+            <p>Seguro-defeso, aposentadoria rural, MEI, previdência: a gente traduz a burocracia e encaminha você.</p>
+            <a href="#pedir-ajuda" class="cartao-situacao__link">Quero encaminhamento</a>
+          </li>
+        </ul>
+        <p class="situacoes__outro" data-reveal>Sua situação não está aqui? <a href="#pedir-ajuda">Fale com a gente mesmo assim</a> — toda história merece acolhimento.</p>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="servicos" id="servicos" aria-labelledby="servicos-titulo">
+      <div class="container servicos__inner">
+        <div class="servicos__intro" data-reveal>
+          <p class="rotulo">O que oferecemos</p>
+          <h2 id="servicos-titulo">Seis serviços,<br>uma só <em>porta de entrada</em></h2>
+          <p class="secao-subtitulo">Tudo gratuito, humanizado e antirracista — do primeiro contato ao resultado.</p>
+          <a class="botao botao--primario" href="#pedir-ajuda">Começar atendimento</a>
+        </div>
+        <ol class="servicos__lista">
+          <li data-reveal>
+            <h3>Acolhimento psicossocial</h3>
+            <p>Escuta qualificada e sigilosa para quem passou por discriminação ou sofrimento.</p>
+          </li>
+          <li data-reveal>
+            <h3>Orientação jurídica</h3>
+            <p>Orientação sobre seus direitos e sobre como registrar ocorrências de racismo e injúria racial.</p>
+          </li>
+          <li data-reveal>
+            <h3>Defesa de direitos</h3>
+            <p>Atuação frente a discriminações por raça, gênero, identidade LGBTQIA+ ou deficiência.</p>
+          </li>
+          <li data-reveal>
+            <h3>Encaminhamento à rede</h3>
+            <p>Conexão com o serviço público certo: saúde, assistência social, trabalho e justiça.</p>
+          </li>
+          <li data-reveal>
+            <h3>Formação e cidadania</h3>
+            <p>Oficinas, rodas de conversa e conteúdos sobre direitos e cidadania nos territórios.</p>
+          </li>
+          <li data-reveal>
+            <h3>Inclusão produtiva</h3>
+            <p>Apoio a trabalho, renda, qualificação profissional e empreendedorismo.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Como funciona -->
+    <section class="jornada" id="como-funciona" aria-labelledby="jornada-titulo">
+      <div class="container">
+        <div class="secao-cabeca" data-reveal>
+          <p class="rotulo">Passo a passo</p>
+          <h2 id="jornada-titulo">Como funciona o <em>atendimento</em></h2>
+          <p class="secao-subtitulo">Sem fila confusa, sem linguagem difícil. Você sabe o próximo passo desde o início.</p>
+        </div>
+        <ol class="jornada__passos">
+          <li class="passo" data-reveal>
+            <span class="passo__numero" aria-hidden="true">1</span>
+            <div>
+              <h3>Você chama</h3>
+              <p>Pelo WhatsApp, pelo site ou presencialmente — do seu jeito, no seu tempo.</p>
+            </div>
+          </li>
+          <li class="passo" data-reveal>
+            <span class="passo__numero" aria-hidden="true">2</span>
+            <div>
+              <h3>A gente acolhe</h3>
+              <p>Escuta humana, sigilosa e sem julgamento, com quem entende o que você viveu.</p>
+            </div>
+          </li>
+          <li class="passo" data-reveal>
+            <span class="passo__numero" aria-hidden="true">3</span>
+            <div>
+              <h3>Orientamos e defendemos</h3>
+              <p>Equipe de psicologia, serviço social e direito orienta, defende e encaminha você ao serviço certo.</p>
+            </div>
+          </li>
+          <li class="passo" data-reveal>
+            <span class="passo__numero" aria-hidden="true">4</span>
+            <div>
+              <h3>Você segue acompanhado(a)</h3>
+              <p>O objetivo é um só: direitos garantidos e pertencimento.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Faixa de impacto -->
+    <section class="impacto" aria-labelledby="impacto-titulo">
+      <div class="container">
+        <div class="secao-cabeca" data-reveal>
+          <p class="rotulo rotulo--claro">Compromisso com a cidade</p>
+          <h2 id="impacto-titulo" class="impacto__titulo">Transparência que vira <em>cuidado</em></h2>
+        </div>
+        <ul class="impacto__numeros">
+          <li data-reveal><strong>1.200</strong><span>acolhimentos por mês</span></li>
+          <li data-reveal><strong>800</strong><span>contatos nos territórios</span></li>
+          <li data-reveal><strong>40</strong><span>oficinas de formação</span></li>
+          <li data-reveal><strong>600</strong><span>participantes em oficinas</span></li>
+        </ul>
+        <p class="impacto__nota" data-reveal>Metas mínimas mensais dos termos de colaboração com a Prefeitura de São Paulo (TCL 068 e 069/2023), com prestação de contas pública.</p>
+      </div>
+    </section>
+
+    <!-- Conteúdo que cuida: Notícias e Direitos -->
+    <section class="conteudos" id="conteudos" aria-labelledby="conteudos-titulo">
+      <div class="container">
+        <div class="secao-cabeca" data-reveal>
+          <p class="rotulo">Fique por dentro</p>
+          <h2 id="conteudos-titulo">Conteúdo que <em>cuida</em></h2>
+          <p class="secao-subtitulo">Informação clara também é acolhimento. Conheça seus direitos e acompanhe o que acontece nos territórios.</p>
+        </div>
+        <div class="conteudos__grade">
+          <a class="cartao-conteudo" href="direitos.html" data-reveal>
+            <p class="rotulo">Guia permanente</p>
+            <h3>Conheça seus direitos</h3>
+            <p>O que a lei garante a você em cada situação — explicado em linguagem simples, sem juridiquês.</p>
+            <span class="cartao-conteudo__link">Acessar o guia</span>
+          </a>
+          <a class="cartao-conteudo" href="noticias.html" data-reveal>
+            <p class="rotulo">Atualizado sempre</p>
+            <h3>Notícias e agenda</h3>
+            <p>Direito da semana, oficinas, rodas de conversa e histórias de quem encontrou o CRPIR.</p>
+            <span class="cartao-conteudo__link">Ver as novidades</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Onde estamos -->
+    <section class="territorios" id="onde-estamos" aria-labelledby="territorios-titulo">
+      <div class="container">
+        <div class="secao-cabeca" data-reveal>
+          <p class="rotulo">Nos territórios</p>
+          <h2 id="territorios-titulo">Perto de <em>você</em></h2>
+          <p class="secao-subtitulo">Equipes fixas e Agentes de Promoção da Igualdade Racial em busca ativa nas ruas, escolas e equipamentos públicos.</p>
+        </div>
+        <div class="territorios__grade">
+          <article class="cartao-territorio" data-reveal>
+            <h3>Zona Leste</h3>
+            <p class="cartao-territorio__bairros">São Miguel Paulista · Itaim Paulista · Cidade Tiradentes</p>
+            <p class="cartao-territorio__contato">Endereço e horário de atendimento: em breve nesta página.</p>
+          </article>
+          <article class="cartao-territorio" data-reveal>
+            <h3>Centro e Zona Oeste</h3>
+            <p class="cartao-territorio__bairros">Sé / Vila Itororó · Vila Sônia / Butantã</p>
+            <p class="cartao-territorio__contato">Endereço e horário de atendimento: em breve nesta página.</p>
+          </article>
+        </div>
+        <p class="territorios__nota" data-reveal>Não mora nessas regiões? O CRPIR atende qualquer munícipe de São Paulo — <a href="#pedir-ajuda">chame no WhatsApp</a> e a gente orienta você.</p>
+      </div>
+    </section>
+
+    <!-- Quem somos -->
+    <section class="quem-somos" id="quem-somos" aria-labelledby="quem-somos-titulo">
+      <div class="container quem-somos__inner">
+        <div class="quem-somos__texto" data-reveal>
+          <p class="rotulo">Quem somos</p>
+          <h2 id="quem-somos-titulo">Acolhida, Afeto e <em>Ação</em></h2>
+          <p>
+            Os <strong>Centros de Referência de Promoção da Igualdade Racial (CRPIR)</strong> são equipamentos
+            públicos da <strong>Secretaria Municipal de Direitos Humanos e Cidadania de São Paulo (SMDHC/CPIR)</strong>,
+            criados para enfrentar o racismo e promover a igualdade racial.
+          </p>
+          <p>
+            Quem opera os centros é o <strong>Instituto Social Espaço Negro (GEN)</strong> — uma organização de
+            impacto social que existe para gerar equidade racial, autonomia e bem viver nos territórios.
+            Atuamos em rede: poder público, organizações da sociedade civil, coletivos e os próprios munícipes
+            formam uma teia de cuidado em que ninguém caminha sozinho.
+          </p>
+          <p>
+            Nossa práxis se resume em três palavras: <strong>Acolhida</strong> (confiança e diálogo),
+            <strong>Afeto</strong> (cuidado como ato político) e <strong>Ação</strong> (transformação concreta) —
+            tudo ancorado na ancestralidade e no princípio Ubuntu.
+          </p>
+          <p class="quem-somos__contratos">
+            Gestão transparente e auditável — contratos PMSP TCL 068 e 069/2023, vinculados à SMDHC/CPIR.
+          </p>
+        </div>
+        <figure class="quem-somos__citacao" data-reveal>
+          <blockquote>
+            <p>“Eu sou<br>porque<br><em>nós</em> somos.”</p>
+          </blockquote>
+          <figcaption>Ubuntu — filosofia ancestral africana que orienta cada atendimento do CRPIR.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Perguntas frequentes -->
+    <section class="faq" id="perguntas" aria-labelledby="faq-titulo">
+      <div class="container faq__inner">
+        <div class="secao-cabeca" data-reveal>
+          <p class="rotulo">Tire suas dúvidas</p>
+          <h2 id="faq-titulo">Perguntas <em>frequentes</em></h2>
+        </div>
+        <div class="faq__lista" data-reveal>
+          <details>
+            <summary>O atendimento do CRPIR é gratuito?</summary>
+            <p>Sim. O CRPIR é um equipamento público da Prefeitura de São Paulo e todos os serviços são gratuitos: acolhimento psicossocial, orientação jurídica, defesa de direitos, encaminhamentos, formação e apoio a trabalho e renda.</p>
+          </details>
+          <details>
+            <summary>O atendimento é sigiloso?</summary>
+            <p>Sim. Sua história fica protegida. O atendimento é sigiloso e seus dados são tratados conforme a LGPD. Nada é compartilhado sem o seu consentimento.</p>
+          </details>
+          <details>
+            <summary>Sofri racismo. O que eu faço?</summary>
+            <p>Chame o CRPIR pelo WhatsApp ou venha presencialmente. Você será acolhido(a) com escuta sigilosa e receberá orientação sobre como registrar a ocorrência. Se quiser, acompanhamos você em cada passo.</p>
+          </details>
+          <details>
+            <summary>Quem pode ser atendido?</summary>
+            <p>Qualquer munícipe de São Paulo. Priorizamos a população negra e grupos historicamente excluídos, e também acolhemos pessoas LGBTQIA+, pessoas com deficiência, trabalhadores informais, comunidades tradicionais, jovens e familiares de pessoas presas.</p>
+          </details>
+          <details>
+            <summary>O CRPIR ajuda a conseguir trabalho e renda?</summary>
+            <p>Sim. O serviço de inclusão produtiva apoia formalização como MEI, qualificação profissional, acesso a vagas e empreendedorismo.</p>
+          </details>
+          <details>
+            <summary>Posso buscar ajuda para outra pessoa?</summary>
+            <p>Pode. Familiares, amigos, educadores e profissionais da rede podem procurar o CRPIR para orientar alguém que precisa. Você não está só — e quem você ama também não.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="cta-final" id="pedir-ajuda" aria-labelledby="cta-titulo">
+      <div class="container cta-final__inner" data-reveal>
+        <h2 id="cta-titulo">Você está em um<br><em>espaço seguro</em>.</h2>
+        <p>Chame a gente agora — sem burocracia, sem julgamento, no seu tempo.</p>
+        <!-- ATENÇÃO: número de WhatsApp é placeholder -->
+        <a class="botao botao--whatsapp botao--grande" href="https://wa.me/5511900000000?text=Ol%C3%A1%2C%20preciso%20de%20acolhimento%20do%20CRPIR." rel="noopener" target="_blank">
+          Falar pelo WhatsApp
+        </a>
+        <p class="cta-final__sigilo">Conversa sigilosa · Dados protegidos pela LGPD · Atendimento gratuito</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="rodape">
+    <div class="container rodape__inner">
+      <div class="rodape__col rodape__marca">
+        <img src="assets/logo-crpir-branco.png" alt="Logotipo do CRPIR em branco" width="120" height="81" loading="lazy">
+        <p>Centro de Referência de Promoção da Igualdade Racial — São Paulo.</p>
+      </div>
+      <div class="rodape__col">
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="#acolhimento">Acolhimento</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="direitos.html">Conheça seus direitos</a></li>
+          <li><a href="noticias.html">Notícias e agenda</a></li>
+          <li><a href="#onde-estamos">Onde estamos</a></li>
+          <li><a href="#quem-somos">Quem somos</a></li>
+          <li><a href="#perguntas">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+      <div class="rodape__col">
+        <h3>Institucional</h3>
+        <p>Equipamento público da SMDHC/CPIR — Prefeitura de São Paulo.</p>
+        <p>Operação: Instituto Social Espaço Negro (GEN).</p>
+        <p>Contratos PMSP TCL 068 e 069/2023.</p>
+      </div>
+      <div class="rodape__col">
+        <h3>Compromissos</h3>
+        <p>Sigilo e LGPD</p>
+        <p>Acessibilidade como padrão</p>
+        <p>Atendimento humanizado e antirracista</p>
+      </div>
+    </div>
+    <div class="rodape__base">
+      <div class="container">
+        <p>© <span id="ano-atual">2026</span> CRPIR · Instituto Social Espaço Negro (GEN)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante do WhatsApp — ATENÇÃO: número placeholder -->
+  <a class="whatsapp-flutuante" href="https://wa.me/5511900000000?text=Ol%C3%A1%2C%20preciso%20de%20acolhimento%20do%20CRPIR." rel="noopener" target="_blank" aria-label="Falar com o CRPIR pelo WhatsApp">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" fill="currentColor"><path d="M16 .8C7.6.8.8 7.6.8 16c0 2.7.7 5.3 2 7.6L.8 31.2l7.8-2c2.2 1.2 4.7 1.9 7.4 1.9 8.4 0 15.2-6.8 15.2-15.2S24.4.8 16 .8zm0 27.7c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.6 1.2 1.2-4.5-.3-.5c-1.3-2-2-4.4-2-6.8C3.1 8.9 8.9 3.1 16 3.1S28.9 8.9 28.9 16 23.1 28.5 16 28.5zm7.1-9.5c-.4-.2-2.3-1.1-2.6-1.3-.4-.1-.6-.2-.9.2-.3.4-1 1.3-1.2 1.5-.2.3-.4.3-.8.1-.4-.2-1.6-.6-3.1-1.9-1.1-1-1.9-2.3-2.1-2.6-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.7.2-.2.3-.4.4-.7.1-.3.1-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.4-1.4 3.4s1.5 3.9 1.7 4.2c.2.3 2.9 4.4 7 6.2 1 .4 1.7.7 2.3.9 1 .3 1.9.3 2.6.2.8-.1 2.3-1 2.7-1.9.3-.9.3-1.7.2-1.9-.1-.2-.4-.3-.8-.5z"/></svg>
+    <span class="whatsapp-flutuante__texto">Pedir ajuda agora</span>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
