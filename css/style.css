@@ -487,6 +487,13 @@ body.alto-contraste .cabecalho { background: var(--branco); }
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 1.25rem;
 }
+.territorios__regiao { margin-bottom: 2.5rem; }
+.territorios__regiao-titulo {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--ambar-medio, var(--hairline));
+}
 .cartao-territorio {
   background: var(--papel);
   border: 1px solid var(--hairline);
@@ -494,6 +501,7 @@ body.alto-contraste .cabecalho { background: var(--branco); }
   padding: 2rem;
 }
 .cartao-territorio h3 { font-size: 1.5rem; margin-bottom: 0.3rem; }
+.cartao-territorio h4 { font-size: 1.2rem; margin-bottom: 0.5rem; }
 .cartao-territorio__bairros {
   color: var(--ambar-escuro);
   font-weight: 700;
@@ -501,6 +509,41 @@ body.alto-contraste .cabecalho { background: var(--branco); }
   margin-bottom: 0.9rem;
 }
 .cartao-territorio__contato { font-size: 0.9rem; }
+.cartao-territorio__local {
+  color: var(--ambar-escuro);
+  font-weight: 700;
+  font-size: 0.88rem;
+  margin-bottom: 0.35rem;
+}
+.cartao-territorio__endereco { font-size: 0.92rem; margin-bottom: 0.35rem; }
+.cartao-territorio__horario {
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+.cartao-territorio__contatos {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.88rem;
+  display: grid;
+  gap: 0.3rem;
+}
+.cartao-territorio__contatos a {
+  color: var(--ambar-escuro);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+}
+
+.territorios__coordenacao {
+  background: var(--papel);
+  border: 1px solid var(--hairline);
+  border-left: 4px solid var(--ambar-medio, var(--ambar-escuro));
+  border-radius: var(--raio);
+  padding: 2rem;
+}
+.territorios__coordenacao h3 { font-size: 1.3rem; margin-bottom: 0.5rem; }
 
 .territorios__nota { margin-top: 2rem; font-size: 1.05rem; }
 
