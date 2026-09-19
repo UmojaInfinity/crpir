@@ -793,6 +793,9 @@ body.alto-contraste .cabecalho { background: var(--branco); }
 }
 .quem-somos__texto p { margin-bottom: 1.1rem; }
 .quem-somos__texto strong { color: var(--tinta); }
+.quem-somos__texto a { text-decoration: none; }
+.quem-somos__texto a:hover strong,
+.quem-somos__texto a:hover { color: var(--ambar); }
 .quem-somos__contratos { font-size: 0.88rem; color: var(--ambar-escuro); }
 
 .quem-somos__citacao blockquote p {
