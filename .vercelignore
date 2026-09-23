@@ -1,0 +1,4 @@
+# Site real fica fora do ar durante a manutenção — arquivos preservados no
+# git em _site_ativo/, só não sobem para o deploy. Remover esta linha (ou
+# apagar o arquivo) para tirar o site do modo de manutenção.
+_site_ativo/
