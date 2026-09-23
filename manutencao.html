@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site em manutenção — CRPIR São Paulo</title>
+  <meta name="description" content="O site do CRPIR está temporariamente em manutenção.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="/assets/logo-crpir.png">
+  <meta name="theme-color" content="#1C1917">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --tinta: #1C1917;
+      --ambar: #B45309;
+      --ambar-escuro: #78350F;
+      --ambar-medio: #FCD34D;
+      --areia: #FEF3C7;
+      --branco: #FFFFFF;
+      --esmeralda: #15803D;
+      --fonte-titulo: "Playfair Display", Georgia, serif;
+      --fonte-corpo: "DM Sans", -apple-system, "Segoe UI", sans-serif;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      font-family: var(--fonte-corpo);
+      color: var(--areia);
+      background:
+        radial-gradient(70rem 36rem at 88% 118%, rgba(180, 83, 9, 0.55), transparent 60%),
+        radial-gradient(40rem 24rem at -10% -30%, rgba(120, 53, 15, 0.5), transparent 65%),
+        var(--tinta);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    .cartao { max-width: 34rem; }
+    .cartao img { width: 96px; height: auto; margin-bottom: 2rem; }
+    .rotulo {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--ambar-medio);
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-family: var(--fonte-titulo);
+      font-weight: 700;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      color: var(--branco);
+      line-height: 1.2;
+      margin-bottom: 1.25rem;
+    }
+    h1 em { font-style: italic; color: var(--ambar-medio); }
+    p.texto {
+      font-size: 1.1rem;
+      color: #D6D3D1;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+    .rodape {
+      margin-top: 2.5rem;
+      font-size: 0.85rem;
+      color: #A8A29E;
+    }
+  </style>
+</head>
+<body>
+  <main class="cartao">
+    <img src="/assets/logo-crpir-branco.png" alt="Logotipo do CRPIR">
+    <p class="rotulo">Centro de Referência de Promoção da Igualdade Racial</p>
+    <h1>Estamos em <em>manutenção</em>.<br>Voltamos em breve.</h1>
+    <p class="texto">
+      O site está passando por uma atualização e volta ao ar em instantes.
+    </p>
+    <p class="rodape">CRPIR · Instituto Social Espaço Negro (GEN) · Equipamento público da SMDHC/CPIR</p>
+  </main>
+</body>
+</html>
